@@ -13,3 +13,7 @@
 
 @end
 
+@interface UITabBarItem (TSTabBar)
+
+- (void)setImage:(UIImage *)image withHighLightedImage:(UIImage *)highLightedImage;
+@end

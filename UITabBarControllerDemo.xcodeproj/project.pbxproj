@@ -10,10 +10,15 @@
 		2910E8D31BC8F512006173BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8D21BC8F512006173BF /* main.m */; };
 		2910E8D61BC8F512006173BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8D51BC8F512006173BF /* AppDelegate.m */; };
 		2910E8D91BC8F512006173BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8D81BC8F512006173BF /* ViewController.m */; };
-		2910E8DC1BC8F512006173BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2910E8DA1BC8F512006173BF /* Main.storyboard */; };
 		2910E8DF1BC8F512006173BF /* UITabBarControllerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8DD1BC8F512006173BF /* UITabBarControllerDemo.xcdatamodeld */; };
 		2910E8E11BC8F512006173BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2910E8E01BC8F512006173BF /* Assets.xcassets */; };
 		2910E8E41BC8F512006173BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2910E8E21BC8F512006173BF /* LaunchScreen.storyboard */; };
+		2910E8ED1BC8FB99006173BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8EC1BC8FB99006173BF /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2910E8F01BC8FBA2006173BF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8EF1BC8FBA2006173BF /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2910E8F31BC8FBA9006173BF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8F21BC8FBA9006173BF /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2910E8F61BC8FBB3006173BF /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910E8F51BC8FBB3006173BF /* FourthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2910E8F91BC90D46006173BF /* home_footbar_icon_dianping_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2910E8F71BC90D46006173BF /* home_footbar_icon_dianping_pressed@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2910E8FA1BC90D46006173BF /* home_footbar_icon_dianping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2910E8F81BC90D46006173BF /* home_footbar_icon_dianping@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +28,20 @@
 		2910E8D51BC8F512006173BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2910E8D71BC8F512006173BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2910E8D81BC8F512006173BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2910E8DB1BC8F512006173BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2910E8DE1BC8F512006173BF /* UITabBarControllerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITabBarControllerDemo.xcdatamodel; sourceTree = "<group>"; };
 		2910E8E01BC8F512006173BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2910E8E31BC8F512006173BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2910E8E51BC8F512006173BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2910E8EB1BC8FB99006173BF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2910E8EC1BC8FB99006173BF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2910E8EE1BC8FBA2006173BF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2910E8EF1BC8FBA2006173BF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2910E8F11BC8FBA9006173BF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2910E8F21BC8FBA9006173BF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2910E8F41BC8FBB3006173BF /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		2910E8F51BC8FBB3006173BF /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		2910E8F71BC90D46006173BF /* home_footbar_icon_dianping_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_footbar_icon_dianping_pressed@2x.png"; sourceTree = "<group>"; };
+		2910E8F81BC90D46006173BF /* home_footbar_icon_dianping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_footbar_icon_dianping@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +74,20 @@
 		2910E8D01BC8F512006173BF /* UITabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2910E8F71BC90D46006173BF /* home_footbar_icon_dianping_pressed@2x.png */,
+				2910E8F81BC90D46006173BF /* home_footbar_icon_dianping@2x.png */,
 				2910E8D41BC8F512006173BF /* AppDelegate.h */,
 				2910E8D51BC8F512006173BF /* AppDelegate.m */,
+				2910E8EB1BC8FB99006173BF /* FirstViewController.h */,
+				2910E8EC1BC8FB99006173BF /* FirstViewController.m */,
+				2910E8EE1BC8FBA2006173BF /* SecondViewController.h */,
+				2910E8EF1BC8FBA2006173BF /* SecondViewController.m */,
+				2910E8F11BC8FBA9006173BF /* ThirdViewController.h */,
+				2910E8F21BC8FBA9006173BF /* ThirdViewController.m */,
+				2910E8F41BC8FBB3006173BF /* FourthViewController.h */,
+				2910E8F51BC8FBB3006173BF /* FourthViewController.m */,
 				2910E8D71BC8F512006173BF /* ViewController.h */,
 				2910E8D81BC8F512006173BF /* ViewController.m */,
-				2910E8DA1BC8F512006173BF /* Main.storyboard */,
 				2910E8E01BC8F512006173BF /* Assets.xcassets */,
 				2910E8E21BC8F512006173BF /* LaunchScreen.storyboard */,
 				2910E8E51BC8F512006173BF /* Info.plist */,
@@ -139,9 +162,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2910E8FA1BC90D46006173BF /* home_footbar_icon_dianping@2x.png in Resources */,
 				2910E8E41BC8F512006173BF /* LaunchScreen.storyboard in Resources */,
+				2910E8F91BC90D46006173BF /* home_footbar_icon_dianping_pressed@2x.png in Resources */,
 				2910E8E11BC8F512006173BF /* Assets.xcassets in Resources */,
-				2910E8DC1BC8F512006173BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,24 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2910E8F61BC8FBB3006173BF /* FourthViewController.m in Sources */,
+				2910E8F01BC8FBA2006173BF /* SecondViewController.m in Sources */,
 				2910E8D91BC8F512006173BF /* ViewController.m in Sources */,
 				2910E8D61BC8F512006173BF /* AppDelegate.m in Sources */,
+				2910E8ED1BC8FB99006173BF /* FirstViewController.m in Sources */,
 				2910E8DF1BC8F512006173BF /* UITabBarControllerDemo.xcdatamodeld in Sources */,
 				2910E8D31BC8F512006173BF /* main.m in Sources */,
+				2910E8F31BC8FBA9006173BF /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2910E8DA1BC8F512006173BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2910E8DB1BC8F512006173BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2910E8E21BC8F512006173BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
